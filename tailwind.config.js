@@ -1,10 +1,14 @@
 module.exports = {
   purge: [],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'jura': ['Jura', 'serif']
+      }
+    },
   },
   variants: {
-    backgroundColor: ['response', 'hover', 'focus', 'active']
+    backgroundColor: ['responsive', 'hover', 'focus', 'active']
   },
   plugins: [],
 }
