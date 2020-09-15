@@ -8,7 +8,8 @@ module.exports = {
     },
   },
   variants: {
-    backgroundColor: ['responsive', 'hover', 'focus', 'active']
+    backgroundColor: ['responsive', 'hover', 'focus', 'active'],
+    fontSize: ['responsive', 'hover', 'focus'],
   },
   plugins: [],
 }

@@ -13,9 +13,9 @@ function Menu() {
                 <h1 className={`text-5xl font-jura font-bold text-center ${!darkMode ? 'text-gray-900' : 'text-gray-100'} `}>show-me-your-tweets</h1>
                 <div className={`text-center mt-2 sm:mt-0 ${!darkMode ? 'text-gray-600' : 'text-gray-200'} `}>View tweets in different modes</div>
                 <div className="flex flex-wrap mt-32">
-                    <Card index='0' title='show me all you got' textHighlight='all' description='a list of all the tweets showed at once'/> 
-                    <Card index='1' title='show me what you got' textHighlight='what' description='a list of all the tweets showed at once'/> 
-                    <Card index='2' title='show me how lazy you are' textHighlight='how lazy' description='a list of all the tweets showed at once'/> 
+                    <Card title='show me all you got' titleHighlight='all' description='a list of all the tweets showed at once' descriptionHighlight='at once'/> 
+                    <Card title='show me what you got' titleHighlight='what' description='a list of all the tweets showed one by one' descriptionHighlight='one by one'/> 
+                    <Card title='show me how lazy you are' titleHighlight='how lazy' description='a list of all the tweets showed as you look' descriptionHighlight='as you look'/> 
                 </div>
             </section>
         </div>
