@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/show-me-your-tweets/static/css/main.dedb8df7.chunk.css",
+    "main.js": "/show-me-your-tweets/static/js/main.3f3cc265.chunk.js",
+    "main.js.map": "/show-me-your-tweets/static/js/main.3f3cc265.chunk.js.map",
+    "runtime-main.js": "/show-me-your-tweets/static/js/runtime-main.3d0e719d.js",
+    "runtime-main.js.map": "/show-me-your-tweets/static/js/runtime-main.3d0e719d.js.map",
+    "static/js/2.51a1f06f.chunk.js": "/show-me-your-tweets/static/js/2.51a1f06f.chunk.js",
+    "static/js/2.51a1f06f.chunk.js.map": "/show-me-your-tweets/static/js/2.51a1f06f.chunk.js.map",
+    "index.html": "/show-me-your-tweets/index.html",
+    "precache-manifest.43277de60b810002c1dbe8e671e44936.js": "/show-me-your-tweets/precache-manifest.43277de60b810002c1dbe8e671e44936.js",
+    "service-worker.js": "/show-me-your-tweets/service-worker.js",
+    "static/css/main.dedb8df7.chunk.css.map": "/show-me-your-tweets/static/css/main.dedb8df7.chunk.css.map",
+    "static/js/2.51a1f06f.chunk.js.LICENSE.txt": "/show-me-your-tweets/static/js/2.51a1f06f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3d0e719d.js",
+    "static/js/2.51a1f06f.chunk.js",
+    "static/css/main.dedb8df7.chunk.css",
+    "static/js/main.3f3cc265.chunk.js"
+  ]
+}
