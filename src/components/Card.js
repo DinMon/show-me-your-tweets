@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { useDarkMode } from '../contexts/DarkModeContext';
 import ReactCardFlip from 'react-card-flip'
-import { throttle, debounce } from 'throttle-debounce';
+import { throttle } from 'throttle-debounce';
 
 function Card({ title, titleHighlight, description, descriptionHighlight}) {
     const darkMode = useDarkMode()
