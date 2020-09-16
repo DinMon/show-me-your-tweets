@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@600;700&display=swap');
+
+.toggle-checkbox {
+    background-color: white;
+    transition: 1s;
+}
+
+.toggle-checkbox:checked {
+    right: 0;
+    background-color: #4a5568;
+    transition: 1s;
+}

@@ -1,11 +1,20 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import MenuScreen from './components/MenuScreen'
+import { DarkModeProvider } from './contexts/DarkModeContext'
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
 function App() {
-  return (
-    <div>
-      <h1 className="text-4xl font-bold text-center text-blue-500">Hello World!</h1>
-    </div>
-  );
+    return (
+        <DarkModeProvider>
+            <BrowserRouter>
+                <Switch>
+                    <Route path="/">
+                        <MenuScreen />
+                    </Route>
+                </Switch>
+            </BrowserRouter>
+        </DarkModeProvider>
+    );
 }
 
 export default App;
